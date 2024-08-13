@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerful_stick_mod:item/sapphire"
+  }
+}

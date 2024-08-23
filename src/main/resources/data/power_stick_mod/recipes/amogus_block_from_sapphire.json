@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "powerful_stick_mod:sapphire"
+    }
+  },
+  "result": {
+    "item": "powerful_stick_mod:amogus_block"
+  }
+}

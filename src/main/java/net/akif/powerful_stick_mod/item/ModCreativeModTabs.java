@@ -19,11 +19,15 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItem.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        // items
                         pOutput.accept(ModItem.SAPPHIRE.get());
                         pOutput.accept(ModItem.RAW_SAPPHIRE.get());
 
+                        // blocks
                         pOutput.accept(ModBlock.AMOGUS_BLOCK.get());
+                        pOutput.accept(ModBlock.BEAUTIFUL_BRICK_BLOCK.get());
 
+                        // Just a potato
                         pOutput.accept(Items.BAKED_POTATO);
                     })
                     .build());

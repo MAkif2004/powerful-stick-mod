@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "powerful_stick_mod:block/beautiful_brick_block"
+  }
+}
